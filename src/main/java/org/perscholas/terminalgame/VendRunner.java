@@ -31,7 +31,7 @@ public class VendRunner {
         vendingMachine.addProduct(bev3.getName(), slot2);
         System.out.println("\n------Vending Before Dispense-----");
         vendingMachine.displayProducts();
-        Product dispensedProduct1 = vendingMachine.dispenseProduct("B!1");
+        Product dispensedProduct1 = vendingMachine.dispenseProduct("B1");
         Product dispensedProduct2 = vendingMachine.dispenseProduct("B1");
         Product dispensedProduct3 = vendingMachine.dispenseProduct("B1");
         Product dispensedProduct4 = vendingMachine.dispenseProduct("B1");
